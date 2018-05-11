@@ -1,0 +1,625 @@
+#add {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+
+img#close {
+position:absolute;
+right:-6px;
+top:69px;
+cursor:pointer
+}
+#popupform {
+display: inline-block;
+position:absolute;
+left:50%;
+top:10%;
+margin-left:-202px;
+}
+#addDisease {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+
+
+header .head_class
+	{
+		background-image: url("images/logo_back.png");
+		width: 100%;
+		height: 3%;
+
+	}
+	#customerbtn:hover,#adminbtn:hover
+	{
+		transform: translateY(3px);
+		cursor: pointer;
+		background: black;
+		color: white;
+	}	
+	#admin
+	{
+
+		padding-top: 20%;
+		margin: auto;
+		padding-left: 10%;
+		display: inline-block;
+	}
+	#user
+	{
+		padding-top: 20%;
+		margin: auto;
+		padding-left: 10%;
+		display: inline-block;
+
+	}
+
+	#adminbtn,#customerbtn
+	{
+		outline: none;
+		border-style: none;
+	}
+
+	#logo
+	{
+		width: 30%;
+		height: 50%;
+
+	}
+	#mySlides{
+		width: 100%;
+		height: 50%;
+		display:none;
+
+
+	}
+
+
+	#writing
+	{
+		margin: 10px;
+	}
+
+	#header1 img
+	{
+		width: 10%;
+		height: 10%;
+	} 
+	#content
+	{
+		margin-left: 80%;
+	}
+	#loginbtn
+	{
+		border-radius: 7px;
+		border-style: none;
+		background: #e1e1e1;
+		color: black;
+		float: right;
+		padding: 25px;
+		transform: translateY(5px);
+	
+
+	}
+	#loginbtn:hover
+	{
+		border-radius: 7px;
+		border-style: none;
+		background: #af8a5f;
+		color: white;
+		float: right;
+		padding: 25px;
+		transform: translateY(5px);
+	}
+
+	.slider1
+	{
+		width: 70%;
+		height: 10%;
+		margin: auto;
+	}
+	.slider1 img
+	{
+		max-height: 30%;
+
+	}
+
+	 #login 
+{
+  text-align: -moz-center;
+  
+}
+
+  #User,#Pass
+  {
+     border-radius: 33px;
+padding: 11px;
+border-style: none;
+border: 2px solid;
+margin: auto;
+
+width: 150%;
+
+background-color: white;
+color: black;
+border-color: black;
+  }
+  #fname,#lname,#phone,#email,#uname,#passs,#cPass
+  {
+    border-radius: 33px;
+padding: 11px;
+border-style: none;
+border: 2px solid;
+margin: auto;
+
+width: 100%;
+background-color: white;
+color:black;
+border-color: black;
+
+
+  }
+
+   #footer
+  {
+    background-color: #af8a5f;
+    margin: -1%;
+  }
+
+ 
+
+
+    #abcd tr,
+    #abcd td,
+    #abcd th,
+    #abcd 
+    {
+      border: 2px solid;
+      margin:auto;
+      text-align: center;
+      padding: 5px;
+      /*width: 40%;*/
+      border-collapse: collapse;
+    }
+    #abcd {
+      width: 70%;
+    }
+
+  #abcd tr:not(:last-child),
+    #abcd td:not(:last-child),
+    #abcd th:not(:last-child)
+    {
+      width: 18%;
+    }
+
+    /*#abcd tr:nth-child(3),*/
+    #abcd td:nth-child(3),
+    #abcd th:nth-child(3){
+      width: 8%;
+      /*background: grey;*/
+    }
+    #abcd tr:last-child,
+    #abcd td:last-child,
+    #abcd th:last-child{
+      width: 100%;
+    }
+
+
+
+
+  #header1
+  {
+    background-color: lightgray;
+    margin: -8px;
+    margin-bottom: 2%;
+  }
+ 
+
+
+  button
+    {
+      padding: 20px;
+      border-radius: 2px;
+      border-style: none;
+      background-color:#4F9E4D;
+      color: white;
+      outline: none;
+    }
+table
+    {
+      text-align: left;
+      border-collapse: collapse;
+      margin: auto;
+      width: 30%;
+      margin-bottom: 30px;
+    }
+
+  form input
+    {
+      padding: 5px;
+      border-style: none;
+      border:2px solid #424242;
+      border-radius: 3px;
+      width: calc(100% - 10px);
+      outline: none;
+    }
+    td button,
+    form button
+    {
+      padding: 7px 20px 7px 20px;
+      border-radius: 2px;
+      border-style: none;
+      background-color:#424242;
+      color: white;
+      outline: none;
+    }
+
+
+ 
+    #backbtn,#amd,#btn
+  {
+    border-radius: 7px;
+    border-style: none;
+    background: #e1e1e1;
+    color: black;
+    float: right;
+    padding: 25px;
+    transform: translateY(5px);
+  
+
+  }
+  #backbtn:hover,#amd:hover,#btn:hover
+  {
+    border-radius: 7px;
+    border-style: none;
+    background: #af8a5f;
+    color: white;
+    float: right;
+    padding: 25px;
+    transform: translateY(5px);
+  }
+button
+		{
+			padding: 20px;
+			border-radius: 2px;
+			border-style: none;
+			background-color:#4F9E4D;
+			color: white;
+			outline: none;
+		}
+table
+		{
+			text-align: left;
+			border-collapse: collapse;
+			margin: auto;
+			width: 30%;
+			margin-bottom: 30px;
+		}
+
+	form input
+		{
+			padding: 5px;
+			border-style: none;
+			border:2px solid #424242;
+			border-radius: 3px;
+			width: calc(100% - 10px);
+			outline: none;
+		}
+		td button,
+		form button
+		{
+			padding: 7px 20px 7px 20px;
+			border-radius: 2px;
+			border-style: none;
+			background-color:#424242;
+			color: white;
+			outline: none;
+		}
+	
+
+  
+
+  #upbtn
+  {
+    border-radius: 7px;
+    border-style: none;
+    background: #e1e1e1;
+    color: black;
+    float: right;
+    padding: 25px;
+    transform: translateY(5px);
+  
+
+  }
+  #upbtn:hover
+  {
+    border-radius: 7px;
+    border-style: none;
+    background: #af8a5f;
+    color: white;
+    float: right;
+    padding: 25px;
+    transform: translateY(5px);
+  }
+
+		.search
+		{
+			padding: 20px;
+		}
+
+		form input
+		{
+			padding: 5px;
+			border-style: none;
+			border:2px solid #4F9E4D;
+			border-radius: 3px;
+			width: 30%;
+      padding: 0.5%;
+      border-radius: 19px;
+			outline: none;
+		  margin: auto;
+      margin-top: 5%;
+      margin-left: 3%;
+    }
+		td button,
+		form button
+		{
+			padding: 7px 20px 7px 20px;
+			border-radius: 2px;
+			border-style: none;
+			background-color:#af8a5f;
+			color: white;
+			outline: none;
+		}
+#dawai,#searc
+{
+	border-radius: 5px;
+	width: 100%;
+	padding: 5px;
+	border:2px ;
+	margin: auto;
+	border-style: outset;
+}
+
+
+#symptom_table
+{
+	float: left;
+	width: 30%;
+	max-width: 30%;
+	padding: 5px;
+	border-collapse: collapse;
+	border: 2px solid black;
+	margin: 0;
+}
+
+
+  #logout
+  {
+    border-radius: 7px;
+    border-style: none;
+    background: #e1e1e1;
+    color: black;
+    float: right;
+    padding: 25px;
+    transform: translateY(5px);
+  
+
+  }
+  #logout:hover
+  {
+    border-radius: 7px;
+    border-style: none;
+    background: #af8a5f;
+    color: white;
+    float: right;
+    padding: 25px;
+    transform: translateY(5px);
+  }
+
+  #footer
+  {
+    background-color: #af8a5f;
+
+   
+   left:0px;
+   bottom:0px;
+   
+   width:100%;
+   margin-top: 10%;
+  }
+
+  #footer1
+  {
+    background-color: #af8a5f;
+   
+
+    position: absolute;
+   
+   left:0px;
+   bottom:0px;
+   
+   width:100%;
+  }
+
+ 
+  
+
+
+   
+    body
+		{
+			margin: 0;
+		}
+		header > div
+		{
+			display: inline-block;
+			padding: 10px;
+			width: calc(30% - 22px);
+		}
+		header
+		{
+			padding: 10px;
+			background: green;
+
+		}
+		header p
+		{
+			margin: 0;
+			color: white;
+			font-size: 22px;
+		}
+		header > div:last-child
+		{
+			width: calc(70% - 22px);
+			direction: rtl;
+		}
+		button
+		{
+			padding: 20px;
+			border-radius: 2px;
+			border-style: none;
+			background-color:#4F9E4D;
+			color: white;
+			outline: none;
+		}
+		button:hover
+		{
+			transform: translateY(1px);
+			cursor: pointer;
+		}
+		section
+		{
+			text-align: center;
+			padding: 20px;
+		}
+		div
+		{
+			border: solid #424242;
+			padding: 10px;
+			border-radius: 4px;
+		}
+
+		table
+		{
+			text-align: left;
+			border-collapse: collapse;
+			margin: auto;
+			width: 30%;
+			margin-bottom: 30px;
+		}
+		#abcd td,
+		#abcd tr,
+		#abcd th,
+		#abcd 
+		{
+			border:solid red;
+		}
+		th,
+		td{
+			border-collapse: collapse;
+			padding: 5px;
+
+		}
+		form input
+		{
+			padding: 5px;
+			border-style: none;
+			border:2px solid #424242;
+			border-radius: 3px;
+			width: calc(100% - 10px);
+			outline: none;
+		}
+		td button,
+		form button
+		{
+			padding: 7px 20px 7px 20px;
+			border-radius: 2px;
+			border-style: none;
+			background-color:#424242;
+			color: white;
+			outline: none;
+		}
+		
+
+  #signUp,#signIn
+  {
+
+    margin-top: 20%;
+    margin: auto;
+    padding-left: 5%;
+    display: inline-block;
+  }
+  
+
+  #alogo,#ulogo
+  {
+    margin: auto;
+    height: 30%;
+    width: 40%;
+  }
+  
+  #signinbtn:hover,#signupbtn:hover,#Next2:hover,#signupback:hover,#signinback:hover
+  {
+    transform: translateY(3px);
+    cursor: pointer;
+    background: black;
+    color: white;
+  } 
+  #signinbtn,#signupbtn,#Next2,#signupback,#signinback
+  {
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    background-color: red;
+    padding: 20px;
+    color: white;
+    margin: auto;
+  }
+
+  #signinLogin,#signupLogin
+  {
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+  }
+
+  #user,#Pass,#loginSubmit
+  {
+    border-radius: 5px;
+    padding: 10px;
+    border-style: none;
+    margin: auto;
+
+  }
+  #flog
+  {
+    text-align: center;
+    margin-left:30%;
+    float: left;
+    margin: auto;
+    box-shadow:10px 6px 20px grey;
+  }
+  #flog2
+  {
+    text-align: center;
+    margin-left:30%;
+    float: left;
+    width: 35%;
+    margin: auto;
+    box-shadow:10px 6px 20px grey;
+  }
+  
